@@ -1,0 +1,71 @@
+body{
+    background:url(esbocos-padrao-de-elementos-da-escola_23-2147534181\ \(1\).avif)
+}
+
+.row {
+    text-align: center;
+    width: 70%;
+    height: auto;
+  }
+  
+  .row {
+    padding-bottom:50%;
+
+    position: relative;
+
+   
+  }
+.UniKids{
+    align-items: center;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin-left: 7.3%;
+}
+   .row {
+    background-color:white;
+            width: 270px; /* Defina a largura desejada */
+            height: 420px;
+            padding: 20px; /* Adicione algum preenchimento interno para espaçamento */
+            border:solid black 5px; /* Adicione uma borda para destacar o quadrado */
+            border-radius: 6%;
+            margin: 0 auto; /* Centralize o quadrado na página (opcional) */
+        }
+
+        /* Estilizando o formulário dentro do quadrado */
+        
+
+        /* Estilizando os campos do formulário, se necessário */
+        input, textarea {
+            width: 100%; /* Faz com que os campos ocupem toda a largura do quadrado */
+            box-sizing: border-box; /* Garante que a largura inclua o preenchimento e a borda */
+            margin-bottom: 10px; /* Adiciona espaço entre os campos */
+        }
+
+        /* Adicione mais estilos conforme necessário */
+
+        button{
+            background-color: cornflowerblue;
+            width: 150px;
+        }
+
+        nav{
+
+            font-size: 25px;
+    
+        }
+       #menu {
+        color: white;
+        font-size: 40px;
+       }
+
+       .dropdown {
+        position: absolute;
+        left: 90%;
+        top:1%;
+       }
+       .dropdown button {
+        background-color:#377D96;
+       }
+
+      

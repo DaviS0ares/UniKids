@@ -1,0 +1,291 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+/*
+
+#FF9B00;  LARANJA
+#0060D4;  AZUL
+#FF006F;  ROSA
+
+*/
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagem-topo {
+width: 100%;
+height: 739px;
+background-color: #FF9B00;
+}
+
+.imagem-topo img {
+    width: 80%;
+    height: 738.9px;
+}
+
+#logo {
+    width: 19%;
+    height: 15vh;
+    position: absolute;
+    top: 9%;
+    margin-left: -80%;
+}
+.menu {
+    margin-left: 80.5%;
+    position: absolute;
+    top: 40%;
+}
+ a{
+    text-decoration: none;
+    color: black; 
+    font-weight: 500;
+ }
+
+
+nav{
+    display: flex;
+}
+
+ ul li {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+   text-align: center;
+ }
+button{
+    border: none;
+    background-color:#0060D4;
+ padding: 1rem 3.8rem;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size:17px;
+}
+ 
+.imagem-topo p { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #FFD494;
+    position: absolute;
+    left: 81%;
+    top:20%;
+}
+
+.imagem-topo h1{
+    position:absolute;
+    left:81%;
+    top: 27%;
+    color: white;
+    
+}
+.pag2 {
+    background-color:#0060D4;
+}
+.pag2 img{
+position: absolute;
+left: 10%;
+top: 110%;
+border: none;
+border-radius: 15px;    
+width: 50%;
+}
+
+.pag2 h1 {
+    position:absolute;
+    top: 110%;
+    margin-left: 72%;
+    font-size:40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pag2 p {
+position: absolute;
+top: 120%;
+margin: 0px 0px 16px;
+margin-left: 67%;
+font-family: 'Roboto', sans-serif;
+font-size: 19px;
+line-height: 2.5rem;
+}
+
+.container-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50%;
+
+    
+}
+
+
+
+.container-card img{
+    width: 23rem;
+    height: 16rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+#event{
+    position: absolute;
+    top: 190%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45%;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu li button:hover{
+    cursor:url(./pencil.svg),auto;
+    transition: 0.5ms;
+}
+.menu li button a:hover{
+    cursor:url(./pencil.svg),auto;
+    transition: 0.5ms;
+}
+
+#estrutura{
+    position: absolute;
+    top: 254%;
+    margin-left: 36%;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-inner img {
+    
+    height: 100vh;
+}
+
+
+footer{
+    background-color: #FF9B00;
+    width: 100%;
+    height: 7rem;
+    
+
+}
+h2{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul li:hover{
+    cursor: pointer;
+}
+
+#devs{
+position: absolute;
+top: 366%;
+left: 6%;
+
+}
+#txt-dev{
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+
+@media screen and (max-width:768px) {
+    .imagem-topo img {
+        width: 100%;
+        height:auto;
+        
+    }
+    .imagem-topo {
+        display: block;
+        flex-direction: column;
+    }
+    #logo{
+        margin-left:-100% ;
+        width: 40%;
+        height: auto;
+    }
+    #paragrafo{
+        position: absolute;
+        top: 34%;
+        left: 6%;
+    }
+
+    #cel{
+        position: absolute;
+        top: 40%;
+        left: 30%;
+    }
+
+    .menu{
+        margin-left: 11%;
+        margin-top: 18%;
+    }
+
+    
+
+    .pag2 h1 {
+        position: absolute;
+        top: 120%;
+        left: -47%;
+        font-size: 25px;
+    }
+
+    .pag2 img {
+        width: 100%;
+        height: auto;
+        margin-top: 32%;
+
+        margin-left:-10%;
+    }
+    
+    .pag2 p {
+        font-size: 14px;
+        margin-top: 80%;
+        margin-left: 0%;
+        
+    }
+
+    #event{
+        position: absolute;
+        top: 210%;
+        right: 32%;
+        justify-content: center;
+    }
+    
+.container-card{
+    display:flex;
+    margin-top: 180%;
+    flex-direction: column;
+}
+
+#estrutura {
+    font-size:22px;
+    position: absolute;
+    top: 384%;
+    left: -14%;
+}
+
+#carouselExample img{
+    width: 100%;
+    height: auto;
+}
+
+#devs{
+    width: 2.4rem;
+    height: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 448.6%;
+    left: 2%;
+}
+
+}
